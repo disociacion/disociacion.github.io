@@ -36,6 +36,12 @@ section {
     filter: blur(2px);
 }
 
+@media screen and (max-width: 600px) {
+    .cover > img {
+        width: 100%;
+        height: 100px;
+    }
+}
 
 a{
     color: #fff;
@@ -46,7 +52,7 @@ a:hover{
 }
 
 .current{
-    color: plum;
+    text-decoration: underline;
 }
 
 li{
